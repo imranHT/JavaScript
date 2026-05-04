@@ -1,0 +1,83 @@
+let age = 27;
+let name = "Imran HAsan";
+let cgpa = 3.56;
+
+console.log(name);
+console.log(age);
+console.log(cgpa);
+console.log(`my cgpa is ${cgpa}`);
+//-----------------------------------------------------------
+let firstName = "Imran";
+let middleName  = "Hasan";
+let lastName = "Talukdar";
+
+console.log(typeof firstName);
+console.log(typeof middleName);
+console.log(typeof lastName);
+
+
+console.log(`My Name is ${firstName} ${middleName} ${lastName}`);
+
+let age = 24;
+
+console.log(`MY age is ${age}`);
+let cgpa = 3.77;
+console.log(`My cgpa is ${cgpa}`);
+
+let fullName = "Imran Hasan Talukdar";
+let age = 24;
+let cgpa = 3.78;
+let Address = "Dhaka";
+
+
+console.log(`My name is ${fullName} . I am ${age} old . My current result is ${cgpa} . I am from ${Address}`);
+//------------------------------------------------------------------------
+let boolean = true;
+let online = false;
+let offline  = true;
+let isStudent = true;
+
+console.log(typeof boolean);
+console.log(`Is Imran a student or not ? == ${isStudent} . Imran is a student ,` );
+console.log(`Is Imran online ? == ${online}`);
+console.log(`Is He offline ? == ${offline}`);
+console.log(typeof isStudent);
+
+console.log(typeof online);
+
+let name = "Imran Hasan";
+let age = 24;
+let cgpa = 3.99;
+let isStudent = true;
+let isActive = false;
+let gmail = "Imran@gmail.com";
+
+console.log(`Hello. My name is ${name} . I am ${age} years old. my current cgpa is ${cgpa} .
+     I am a student == ${isStudent} . Am i active Now ? == ${isActive} . 
+     Contact me for this mail ${gmail} . bye`);
+
+
+//--------------------------------------------------------------------------------------
+
+// connection between html and js;
+//===================================
+let fullname = "Imran Hasan";
+let age = 24;
+let student = true;
+
+document.getElementById('p1').textContent = fullname;
+document.getElementById('p2').textContent = age;
+document.getElementById('p3').textContent = student;
+
+// html 
+/*<body>
+   
+  <p id="p1"></p>
+  <p id="p2"></p>
+  <p id="p3"></p>
+  <p id="p4"></p>
+  <p id="p5"></p>
+    </body>
+*/
+
+
