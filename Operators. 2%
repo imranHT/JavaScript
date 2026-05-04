@@ -1,0 +1,36 @@
+
+let passenger = 45;
+
+passenger = passenger + 1;
+passenger = passenger -1;
+passenger = passenger * 2;
+passenger = passenger / 5;
+passenger = passenger % 2;
+passenger = passenger ** 2;
+
+
+console.log(passenger);
+
+let extraPassenger = 5;
+
+passenger = passenger + extraPassenger;
+
+console.log(passenger);
+
+//exponentiation assignment operator
+passenger += 5;
+passenger -= 5;
+passenger *= 2;
+passenger /= 5;
+passenger **= 2;
+passenger %= 2;
+
+passenger++;
+passenger --;
+console.log(passenger);
+
+let result = 1+2*3+4** 2;
+let result = 1+2*3+4+16;
+let result = (1+2)*3+4**2;(ex **2 = 2*2 = 4)
+console.log(result)
+
