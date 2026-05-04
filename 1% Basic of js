@@ -1,6 +1,6 @@
-let age = 27;
-let name = "Imran HAsan";
-let cgpa = 3.56;
+let age = 24;
+let name = "Imran Hasan";
+let cgpa = 3.60;
 
 console.log(name);
 console.log(age);
