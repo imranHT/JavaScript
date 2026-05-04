@@ -1,0 +1,42 @@
+
+let name = "Imran ";
+let age = 24;
+let degicnation = "Software Engineer";
+let isStudent = true;
+
+console.log(`Name : ${name} . Age : ${age} . Designation : ${degicnation} . Is Student ? == ${isStudent}`);
+
+let company = "Google";
+
+let totalEmoloyee = 1000;
+
+let isHiring = true;
+let layoffEmployee = 50;
+let newEmployee = 25;
+let year = 2025;
+let newYear = 2026
+
+console.log(`Year : ${year} Company : ${company} . Total Employee : ${totalEmoloyee}`);
+totalEmoloyee = totalEmoloyee - layoffEmployee;
+console.log(totalEmoloyee);
+totalEmoloyee = totalEmoloyee + newEmployee;
+console.log(totalEmoloyee);
+
+
+console.log(`Year : ${newYear} .Company : ${company} . Total Employee : ${totalEmoloyee} 
+                   Is Hiring : ${isHiring}
+                   layoff Employee ; ${layoffEmployee}
+                    new Employee : ${newEmployee}
+
+
+
+
+
+
+
+
+
+
+                    total Employee After layoff and new employee : ${totalEmoloyee}`);
+
+  
