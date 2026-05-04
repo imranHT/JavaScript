@@ -81,3 +81,18 @@ document.getElementById('p3').textContent = student;
 */
 
 
+let fullname = "Imran Hasan Talukdar";
+let age = 24;
+let isStudent  = true;
+let cgpa = 3.70;
+let gamil = "ImranHasan@gamil.com";
+
+
+document.getElementById('p1').textContent = `My Name is ${fullname}`;
+document.getElementById('p2').textContent = `My age is ${age}`;
+document.getElementById('p3').textContent = `Am I a student ? == ${isStudent}`;
+document.getElementById('p4').textContent = `My current cgpa is ${cgpa}`;
+document.getElementById('p5').textContent = `Contact me for this mail ${gamil}`;
+
+
+
