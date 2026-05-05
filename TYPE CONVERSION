@@ -1,0 +1,21 @@
+let age = window.prompt(`Enter youe age :`);
+age = Number(age);
+age += 1;
+console.log(age);
+
+-------------------------------
+
+let x = 1212;
+let y = "Imran";
+let z = "Pizza";
+
+x = Number(x);
+y = String(y);
+z = Boolean(z);
+
+console.log(x, typeof x);
+console.log(y,typeof y);
+console.log(z,typeof z);
+
+
+
