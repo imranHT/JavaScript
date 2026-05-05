@@ -1,0 +1,47 @@
+<body>
+
+   <h1>Welcome </h1>
+
+   <label>Name : </label>
+   <input id="myText">
+   <button id="myWorld">Submit</button><br><br>
+
+   <label>Address :</label>
+   <input id="myAdd">
+   <button id="myAddress">Submit</button><br><br>
+
+
+   <label >Email :</label>
+   <input id="myMail">
+   <button id="myEmail">Submit</button><br><br>
+
+
+
+</body>
+
+
+js
+
+
+
+let name;
+
+document.getElementById(`myWorld`).onclick = function(){
+  name = document.getElementById(`myText`).value;
+  console.log(name);
+}
+
+let address;
+document.getElementById(`myAddress`).onclick = function(){
+  address = document.getElementById(`myAdd`).value;
+  console.log(address);
+}
+
+let email;
+document.getElementById(`myEmail`).onclick = function(){
+  email = document.getElementById(`myMail`).value;
+  console.log(email);
+}
+
+
+
