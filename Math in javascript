@@ -1,0 +1,28 @@
+let a = 5;
+let y = 1;
+let s = 3;
+
+console.log(Math.PI); π (Pi) এর মান দেখায়।
+console.log(Math.E); Euler’s number দেখায়।
+
+z = Math.round(a); Number কে nearest integer এ round করে।
+
+
+z = Math.floor(a); নিচের integer এ নিয়ে যায়।
+z = Math.ceil(a); উপরের integer এ নিয়ে যায়।
+z =Math.trunc(a); Decimal part কেটে ফেলে।
+z = Math.pow(a,y); Power বের করে।
+z = Math.sqrt(a); Square root বের করে।
+z = Math.sin(a); Sine value বের করে। এখানে angle radian এ হয়।
+z = Math.log(a); Natural logarithm বের করে।
+z = Math.cos(a); Cosine value বের করে।
+z = Math.tan(a); Tangent value বের করে।
+z = Math.abs(a); Negative number কে positive বানায়।
+z = Math.sign(a); Number positive না negative সেটা বলে।
+
+let max = Math.max(a,y,s); সবচেয়ে বড় number বের করে।
+let min = Math.min(a,y,s); সবচেয়ে ছোট number বের করে।
+
+
+
+console.log(min);
