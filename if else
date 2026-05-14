@@ -6,3 +6,21 @@ if(isStudent){
 else{
     console.log("You are not a student");
 }
+let age = 20;
+let hasLicence = true;
+
+if(age >= 17){
+    console.log("You take the licence");
+
+
+
+    if(hasLicence){
+        console.log("you hava your licence")
+    }
+    else{
+        console.log("You donot hava your licence")
+    }
+}
+else{
+    console.log("Your age under 17.")
+}
