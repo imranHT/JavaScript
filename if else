@@ -6,6 +6,10 @@ if(isStudent){
 else{
     console.log("You are not a student");
 }
+
+
+
+
 let age = 20;
 let hasLicence = true;
 
