@@ -1,0 +1,11 @@
+const data = {
+    name : "Imran Hasan",
+    age : 24,
+    cgpa : 3.84,
+    designation : "Software Engineer",
+    isStudent :true,
+    isActive : false,
+};
+
+data["name"] = "Broken Khan";
+console.log(data.name);
