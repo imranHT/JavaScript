@@ -9,3 +9,75 @@ const data = {
 
 data["name"] = "Broken Khan";
 console.log(data.name);
+------------------------------------------
+
+
+//Operators
+
+let a = 10;
+let b = 6;
+
+ console.log("a+b = ",a+b);
+console.log("a-b = ",a-b);
+console.log("a*b = ",a*b);
+console.log("a/b = ",a/b);
+console.log("a%b = ",a%b);
+ console.log("a**b =",a**b);
+
+//Unary Opetators
+
+console.log("a = ",a, " && b = ",b);
+console.log("a++ = ", a++);
+console.log("a = ",a);
+console.log("a-- = ", a--);
+console.log("a = ",a);
+console.log("++a = ", ++a);
+console.log("--a = ",--a);
+
+
+console.log("b++ = ", b++);
+console.log("b = ",b);
+console.log("b-- = ", b--);
+console.log("b = ",b);
+console.log("++b = ", ++b);
+console.log("--b = ",--b);
+
+//Assignment Operators
+
+
+a += 5;
+console.log("a = ",a);
+ a -= 5;
+ console.log("a = ",a);
+ a *= 5;
+ console.log("a = ",a);
+a /= 2;
+console.log("a = ",a);
+ a %= 3;
+console.log("a = ",a);
+a **= 2;
+console.log("a = ",a);
+
+
+//comparison Operator
+
+
+ console.log("a = ",a, "&& b = ",b);
+
+console.log("a == b =", a==b);
+ console.log("a != b =", a!=b);
+ console.log("a === b =", a===b); //strict equality
+ console.log("a !== b =", a!==b);
+ console.log("a >= b =", a>=b);
+ console.log("a <= b =", a<=b);
+ console.log("a > b =", a>b);
+ console.log("a < b =", a<b);
+
+//logical operators
+let condi1 = a > b;
+let condi2 = a === 10;
+
+
+console.log("condi1 && condi2 =",condi1 && condi2);
+console.log("condi1 || condi2 = ", condi1 || condi2);
+console.log("!(condi1 < condi2) = ", !(condi1 === condi2));
