@@ -81,3 +81,76 @@ let condi2 = a === 10;
 console.log("condi1 && condi2 =",condi1 && condi2);
 console.log("condi1 || condi2 = ", condi1 || condi2);
 console.log("!(condi1 < condi2) = ", !(condi1 === condi2));
+------------------------------------------------------------
+
+
+//conditions
+
+
+//only if 
+let mode = "light";
+
+ if(mode === "dark"){
+    color = "black";
+ }
+ if(mode === "light"){
+     color = "white";
+}
+
+ console.log(color);
+
+
+//if else
+
+     let number = -10;
+
+     if(number > 0){
+         math = "positive";
+     }
+     else {
+         math = "negative";
+     }
+
+     console.log(math);
+
+     let mode = "dark";
+
+     if(mode === "dark"){
+         color = "black";
+     }
+     else{
+         color = "white";
+    }
+     console.log(color);
+
+
+    //if else if else statement 
+
+    let mode  = "rgb";
+
+    if(mode === "dark"){
+         color = "black";
+    }
+     else if(mode === "rgb"){
+         color = "red,green,blue";
+     }
+     else{
+         color = "white";
+     }
+
+    console.log(color);
+
+     let age = 2;
+
+     if(age >= 20 && age <=25){
+         code = "eligible";
+     }
+    else if(age <=10){
+        code = "not eligible";
+    }
+    else {
+            code = "Sifi";
+     }
+     console.log(code);
+
+-------------------------------------------------------------
