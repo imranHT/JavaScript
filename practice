@@ -165,3 +165,31 @@ if(num % 5 === 0){
 else{
     console.log("is not a multiple of 5");
 }
+--------------------------------------------------------------------
+
+//Write a code which can give grades to students according to their scores:
+
+let score = 10;
+let grade;
+
+
+if(score >=80 && score <= 100){
+    grade = 'A+';
+}
+else if(score >= 70 && score <= 79){
+    grade = 'A';
+}
+else if(score >= 60 && score <=69){
+    grade ='B';
+}
+else if(score >= 50 && score <=59){
+    grade = 'C';
+}
+else if(score >= 40 && score <=49){
+    grade  = 'D';
+}
+else {
+    grade = 'F';
+}
+
+console.log('The grade for the score ' + score + ' is:' + grade);
